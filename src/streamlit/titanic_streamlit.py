@@ -8,7 +8,7 @@ st.text('Sarah Beltran')
 
 st.header('Dataset', divider='gray')
 
-df = pd.read_csv('C:/Users/sarah/apps/Data-Analysis/src/streamlit/titanic.csv')
+df = pd.read_csv('titanic.csv')
 df.columns = ['passenger_id', 'survived', 'class', 'name', 'sex', 'age', 'sib_spouses', 'parents_children', 'ticket', 'fare', 'cabin', 'embarked']
 st.dataframe(df)
 print('\n')
